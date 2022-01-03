@@ -1,0 +1,3 @@
+#cmakedefine BUILD_CALC
+#cmakedefine BUILD_CALC_F0
+#cmakedefine BUILD_CALC_F1
