@@ -25,3 +25,4 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR})
 # Our goal is to make a STATIC library named kecmakesampleapps from the files present in the SRCS variable
 add_library(kecmakesampleapps STATIC ${SRCS})
 
+
