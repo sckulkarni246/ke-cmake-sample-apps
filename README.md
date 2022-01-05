@@ -11,7 +11,7 @@ The below samples introduce the various CMake concepts gradually and can be used
 ## Sample 1: Simple Calculator Static Library
 - Selected using `BUILD_CALC` symbol
 - Optionally, implements addition, subtraction, multiplication, division - selected using `BUILD_CALC_F0`
-- Optionally, implements percentage, factorial, power (not using math library), inverse (1/x) - selected using `BUILD_CALC_F1` (under development)
+- Optionally, implements percentage, factorial, power (not using math library), inverse (1/x) - selected using `BUILD_CALC_F1`
 - Autogenerates a configuration header file named `g_config.h` which when included enables the functions that you want in the respective header files
 
 This CMake example shows how to:
